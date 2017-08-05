@@ -1,0 +1,25 @@
+ERROR 2017-08-05 10:34:09,124 (StunServiceImpl.java:263) error sending STUN request
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2017-08-05 10:34:09,124 (StunServiceImpl.java:263) error sending STUN request
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2017-08-05 10:34:09,124 (StunServiceImpl.java:263) error sending STUN request
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-08-05 10:34:19,123 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/184.168.221.96:3478 at local address /192.168.107.1:0
+WARN  2017-08-05 10:34:19,123 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/184.168.221.96:3478 at local address /192.168.2.64:0
+WARN  2017-08-05 10:34:19,123 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/184.168.221.96:3478 at local address /10.11.0.1:0
+WARN  2017-08-05 10:34:19,123 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/184.168.221.96:3478 at local address /192.168.58.1:0
