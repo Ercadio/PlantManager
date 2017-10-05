@@ -16,7 +16,7 @@ Otherwise on Linux, use run_linux.sh
 
 ### Prerequisites
 
-You will need Java 1.8 to run this template. Simply download it from [https://java.com/inc/BrowserRedirect1.jsp?locale=en](here).
+You will need Java 1.8 to run this template. Simply download it from [here](https://java.com/inc/BrowserRedirect1.jsp?locale=en).
 
 ## Running the tests
 
