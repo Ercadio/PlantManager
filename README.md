@@ -1,5 +1,5 @@
 # TCP Server Template
-This is a template for a Java TCP server and client. It inlcudes a chatroom and a command processor.
+This is a template for a Java TCP server and client. It includes a chatroom and a command processor.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ Otherwise on Linux, use run_linux.sh
 
 ### Prerequisites
 
-You will need Java 1.8 to run this template. Simply download it from here.
+You will need Java 1.8 to run this template. Simply download it from [https://java.com/inc/BrowserRedirect1.jsp?locale=en](here).
 
 ## Running the tests
 
