@@ -32,9 +32,9 @@ Upon opening the Server and Clients console, you will be able to type some messa
 ```
 ## Design
 Here is a class diagram of the Server
-![TCPServer.jpg]
+![TCPServer.jpg](https://raw.githubusercontent.com/Ercadio/TCPTemplate/master/TCPserver.JPG)
 Here is a class diagram of the Client
-![TCPClient.jpg]
+![TCPClient.jpg](https://raw.githubusercontent.com/Ercadio/TCPTemplate/master/TCPClient.JPG)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
