@@ -13,6 +13,12 @@ java -jar TCPClient.jar
 ```
 If you're on Windows, you can simply run run_windows.bat and it should open everything you need.
 Otherwise on Linux, use run_linux.sh
+Make sure to close your server if you're running run_linux.sh since the server is nohup'd.
+You can do this by
+```
+top -u $(whoami) | grep java
+```
+and then killing the job
 
 ### Prerequisites
 
@@ -20,8 +26,15 @@ You will need Java 1.8 to run this template. Simply download it from [here](http
 
 ## Running the tests
 
-Upon opening the Server and Clients console, you will be able to type some messages that will be multicasted. There is also a Command Proccessor.
-
+Upon opening the Server and Clients console, you will be able to type some messages that will be multicasted. There is also a Command Proccessor. Each command starts with a '/' character. To quit safely, simply 
+```
+\quit
+```
+## Design
+Here is a class diagram of the Server
+![TCPServer.jpg]
+Here is a class diagram of the Client
+![TCPClient.jpg]
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
