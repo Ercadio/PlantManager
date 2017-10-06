@@ -24,7 +24,7 @@ and then killing the job
 
 You will need Java 1.8 to run this template. Simply download it from [here](https://java.com/inc/BrowserRedirect1.jsp?locale=en).
 
-## Running the tests
+## Running
 
 Upon opening the Server and Clients console, you will be able to type some messages that will be multicasted. There is also a Command Proccessor. Each command starts with a '/' character. To quit safely, simply 
 ```
