@@ -1,0 +1,31 @@
+[H[2J[32m[localhost connected][0m
+[30;48;5;208m[localhost][0m hi
+[30;48;5;208m[localhost][0m what's up
+[30;48;5;208m[localhost][0m not much
+[30;48;5;208m[localhost][0m you
+[32m[ktnron0916w-lp140-02-67-71-82-172.dsl.bell.ca connected][0m
+[30;48;5;208m[ktnron0916w-lp140-02-67-71-82-172.dsl.bell.ca][0m hi
+[30;48;5;208m[ktnron0916w-lp140-02-67-71-82-172.dsl.bell.ca][0m what up
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:401)
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:323)
+	at me.ercadio.Connection.sendPacket(Connection.java:99)
+	at me.ercadio.TCPServer.broadcast(TCPServer.java:39)
+	at me.ercadio.Connection$OutputRunnable.run(Connection.java:80)
+	at java.lang.Thread.run(Thread.java:748)
+[30;48;5;208m[ktnron0916w-lp140-02-67-71-82-172.dsl.bell.ca][0m good
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.DataOutputStream.write(DataOutputStream.java:107)
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:401)
+	at java.io.DataOutputStream.writeUTF(DataOutputStream.java:323)
+	at me.ercadio.Connection.sendPacket(Connection.java:99)
+	at me.ercadio.TCPServer.broadcast(TCPServer.java:39)
+	at me.ercadio.Connection$OutputRunnable.run(Connection.java:80)
+	at java.lang.Thread.run(Thread.java:748)
